@@ -7,7 +7,7 @@ const filterPrimes = arr => arr.filter(num => {
     return true; // If no divisor is found, the number is prime
   });
   
-  // Example usage:
+
   const inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   const primeNumbers = filterPrimes(inputArray);
   console.log(primeNumbers); // Output: [2, 3, 5, 7]
